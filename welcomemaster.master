@@ -1,0 +1,139 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="welcomemaster.master.cs" Inherits="welcomemaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type ="text/javascript">
+
+    window.onload = window.history.forward(0);  //calling function on window onload
+    
+</script>
+<title>Business Company</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="styles.css">
+   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+   <script src="script.js"></script>
+ 
+    <style type="text/css">
+        .style1
+        {
+            text-decoration: underline;
+        }
+    </style>
+    <!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+
+
+ 
+</head>
+<body>
+    <form id="form1" runat="server">
+<div id="wh_bg">
+  <div id="bg_bg">
+    <div id="top">
+      <div class="top1">
+          <asp:Image ID="Image1" runat="server" Height="170px" 
+              ImageUrl="~/admin/bsnl.jpg" Width="998px" />
+        </div>
+      <div id="menu">
+         <div id="Div1">
+      
+<div id='cssmenu'>
+<ul>
+   <li><a href="home.aspx"><span>Home</span></a></li>
+   <li class='active has-sub'><a href='#'><span>New Connection</span></a>
+      <ul>
+         <li class='has-sub'><a href="lndline.aspx"><span>Landline</span></a>
+            
+         </li>
+         <li class='has-sub'><a href="mobilecon.aspx"><span> Mobile</span></a>
+            
+         </li>
+         <li class='has-sub'><a href="Broadband plan.aspx"><span> Broadband</span></a>
+            
+         </li>
+      </ul>
+   </li>
+    <li class='active has-sub'><a href="billhistory.aspx"><span> Bill history</span></a>
+      
+   </li>
+
+    <li class='active has-sub'><a href="paymybill_afterlogin.aspx"><span>Pay bill</span></a>
+   </li>
+    <li class='active has-sub'><a href="login.aspx"><span>Sign out</span></a>
+    
+   </li>
+    
+</div>
+
+
+    </div>
+      </div>
+    </div>
+    <div id="content">
+      <div id="part1">
+        <div id="img_para"> <!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/wschomepagelogo.jpg" alt="WSCHomePageLogo" title="WSCHomePageLogo" id="wows1_0"/></li>
+		<li><img src="data1/images/bsnl6.jpg" alt="bsnl6" title="bsnl6" id="wows1_1"/></li>
+		<li><img src="data1/images/bsnl12.jpg" alt="bsnl12" title="bsnl12" id="wows1_2"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/bsnllogo.jpg" alt="cssslider" title="bsnl-logo" id="wows1_3"/></a></li>
+		<li><img src="data1/images/logobsnl.jpg" alt="logo-bsnl" title="logo-bsnl" id="wows1_4"/></li>
+	</ul></div>
+<div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section --></div>
+        <div id="con">
+          <div class="con1"> <h1 class="style1"><em>Welcome to BSNL</em></h1><span class="txt">
+              <img src="images/offers2%20(1).JPG" width="220" alt="" class="wor" /><strong><em>Bharat Sanchar Nigam Limited 
+              (abbreviated BSNL) is an Indian state-owned telecommunications company 
+              headquartered in New Delhi. It was incorporated on 15 September 2000 and took 
+              over the business of providing of telecom services and network management from 
+              the erstwhile Central Government Departments of Telecom Services (DTS) and 
+              Telecom Operations (DTO), with effect from 1 October 2000 on a going concern 
+              basis. It is the largest provider of fixed telephony and broadband services with 
+              more than 60% market share and sixth largest mobile telephony provider in India. 
+              However, in recent years the company&#39;s revenues and market share have plummeted 
+              into heavy losses due to intense competition in the Indian telecommunications 
+              sector. BSNL is India&#39;s oldest communication service provider and had a customer 
+              base of 93.29 million as of June 2015</em></strong><br />
+              <br />
+            <br />
+            </span> </div>
+          <div class="con2"> <img src="images/lat.gif" width="141" height="16" alt="" class="flt" /> <span class="flt" style="width:270px;"> <img src="images/dot1.gif" width="13" height="9" alt="" class="flt" style="margin:15px 0px 0px 0px;" />&nbsp;
+           <marquee id="Marquee1" runat="server" direction="up" onmouseout="this.start()" 
+                    onmouseover="this.stop()" scrollamount="-3">
+                    <asp:HyperLink ID="HyperLink1" runat="server">BSNL & University of Hyderabad jointly offer Post Graduate Diploma in Telecom Technology and Management (PGDTTM) course ( one year distance and virtual learning ) Last date extended upto 15.02.2014 </asp:HyperLink><br /><br />
+                    <asp:HyperLink ID="HyperLink2" runat="server">BSNL launches new BSNL Cloud Services (Public Compute as a Service)</asp:HyperLink><br /><br />
+                       <asp:HyperLink ID="HyperLink3" runat="server">Flexi Combo Plan under Broadband/Landline Services</asp:HyperLink><br /><br />
+                       <asp:HyperLink ID="HyperLink4" runat="server">Handsome discounts are available to the Enterprise Customers on Internet Leased Line Service (ILL) </asp:HyperLink><br /><br />
+
+                    </marquee></span> <img src="images/bar1.gif" width="274" height="1" alt="" class="flt" style="margin-top:10px;" /> <img src="images/cont.gif" width="125" height="16" alt="" class="cont" /> <span class="con_txt"> 
+              <strong><em>Registered &amp; Corporate Office Bharat Sanchar Bhavan Harish Chandra 
+              Mathur Lane Janpath, New Delhi-110 001 Corporate identity Number 
+              (CIN):U74899DL2000GOI107739&nbsp; </em></strong> <br />
+            <br />
+            </span> </div>
+        </div>
+      </div>
+      <div id="part2">
+      </div>
+    </div>
+    <div id="footer">
+      <div id="foot"> <a href="#">Home</a> <span class="flt">|</span> <a href="#">About Us</a> <span class="flt">|</span> <a href="#">Services</a> <span class="flt">|</span> <a href="#">Our Media</a> <span class="flt">|</span> <a href="#">Our Clients</a> <span class="flt">|</span> <a href="#">Solutions</a> <span class="flt">|</span> <a </div>
+      <span class="copy">© Copyright 2016. All rights reserved. Concept &amp; designed by 
+        Krishma &amp;&amp; mehak creations.</span> </div>
+  </div>
+</div>
+    </form>
+</body>
+</html>

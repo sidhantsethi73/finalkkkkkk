@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="reg" Class="DataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\reg.mdf;Integrated Security=True;User Instance=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="regConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.connection" Member="connections">
+    <Type Name="connection">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="billing_address" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="tariff_plan" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="date" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="status" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="pincode" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="no_of" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.mobile" Member="mobiles">
+    <Type Name="mobile">
+      <Column Name="c_id" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="conn_type" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="service_req" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="mig_no" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.register" Member="registers">
+    <Type Name="register">
+      <Column Name="fnm" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="lnm" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="g" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="fname" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="mname" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dob" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="address" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="contact" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="state" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="city" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ocp" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="pin" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="pwd" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="cpwd" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="nty" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="mst" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="img" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
